@@ -1,5 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
+    font-size: 18px;
 }
 
 .header,
@@ -12,4 +13,20 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+}
+
+.links,
+.hero-sec {
+    color: #E5E7EB;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
