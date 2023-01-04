@@ -67,3 +67,21 @@ button {
     height: auto;
     max-width: 50%;
 }
+
+.info {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 56px;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: row;
+}
+
+.product-image {
+    height: 100px;
+}
