@@ -9,6 +9,12 @@ body {
     background-color: #1F2937;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 200px;
+}
+
 .logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -20,13 +26,43 @@ body {
     color: #E5E7EB;
 }
 
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+.section-one {
+    padding: 50px 200px;
+ 
+}
+
+.container-one {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.hero-text {
+    padding: 16px o;
+}
+
 .hero-main {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 button {
     background-color: #3882F6;
     color: #F9FAF8;
+    border-radius: 25px;
+    padding: 0 16px;
+    height: 32px;
+}
+
+.hero-image {
+    height: auto;
+    max-width: 50%;
 }
