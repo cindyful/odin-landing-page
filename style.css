@@ -80,8 +80,19 @@ button {
 .container-two {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+
+.products {
+    margin: 16px;
 }
 
 .product-image {
     height: 100px;
+    border-radius: 10px;
+}
+
+.caption {
+    display: flex;
+    justify-content: center;
 }
