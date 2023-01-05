@@ -137,3 +137,9 @@ button {
     font-weight: bold;
 }
 
+.copyright {
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+}
