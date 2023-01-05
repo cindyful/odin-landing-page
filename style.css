@@ -74,13 +74,14 @@ button {
     color: #1F2937;
     display: flex;
     justify-content: center;
-    padding: 56px;
+    padding: 64px;
 }
 
 .container-two {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 64px;
 }
 
 .products {
@@ -95,4 +96,25 @@ button {
 .caption {
     display: flex;
     justify-content: center;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 200px 325px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.customer {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
 }
